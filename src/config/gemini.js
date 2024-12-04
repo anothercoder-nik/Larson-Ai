@@ -1,6 +1,8 @@
 import { GoogleGenerativeAI } from "@google/generative-ai";
 
-const apiKey = "VITE_GOOGLE_API_KEY"; // Replace with your API key
+
+
+const apiKey = "use your own gemini api key here "; // simple use this and put your awn gemini api key in .env
 const genAI = new GoogleGenerativeAI(apiKey);
 
 const model = genAI.getGenerativeModel({

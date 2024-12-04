@@ -28,6 +28,7 @@
     font-size: 14px;
     color: grey;
     cursor: pointer;
+    animation: fadeIn 1.5s;
 }
 
 .sidebar .recent{
